@@ -4,7 +4,7 @@
 
         <textarea
             name="body"
-            class="w-full"
+            class="w-full py-2 px-2"
             placeholder="What's up doc?"
             required
         ></textarea>
@@ -16,6 +16,8 @@
                 src="{{ auth()->user()->avatar }}"
                 alt="your avatar"
                 class="rounded-full mr-2"
+                width="40"
+                height="40"
             >
 
             <button type="submit"
