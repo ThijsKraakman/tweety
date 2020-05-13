@@ -6,6 +6,7 @@
             name="body"
             class="w-full py-2 px-2"
             placeholder="What's up doc?"
+            autofocus
             required
         ></textarea>
 
@@ -21,8 +22,8 @@
             >
 
             <button type="submit"
-                class="bg-blue-500 rounded-lg shadow py-2 px-2 text-white">
-                Tweet-a-roo!
+                class="bg-blue-500 hover:bg-blue-600 rounded-lg shadow px-10 text-sm text-white h-10">
+                Publish
             </button>
         </footer>
     </form>
